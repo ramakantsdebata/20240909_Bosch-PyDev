@@ -10,6 +10,10 @@
     * Switch cell type to Code - y
 ### Links
 #### Technical
+* [PEPs](https://peps.python.org/)
+* [Zen of Python](https://peps.python.org/pep-0020/)
+* [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+
 #### Operational
 
 ### Contact Details

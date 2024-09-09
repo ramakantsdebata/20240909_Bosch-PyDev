@@ -15,6 +15,7 @@
 * [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 
 #### Operational
+* [Org Feedback Day 0](https://forms.office.com/e/gxkNR4Zr8i)
 
 ### Contact Details
 * Ramakant Debata

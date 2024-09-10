@@ -67,7 +67,7 @@ print(s3[:-9])
 
 print(s3[-5:-2])
 
-s4 = "1234567890"
+s4 = "0123456789"
 print(s4[2:8:2])
 print(s4[7:])
 print(s4[-3:])
@@ -79,4 +79,26 @@ print(s4[-8::-1])
 print(s4[:-4:-1])
 
 # 321098
-# print(s4[])
+print(s4[2::-1])
+print(s4[:-4:-1])
+print(s4[2:-4:-1])
+print(s4[2:6:-1])
+# print(s4[7:4:-1])     # Works, not an error
+
+
+print(s4[::-1])
+print(s4[::2])
+print(s4[1::2])
+
+
+## Members of String class
+s5 = "test"
+print(s5.capitalize())
+print(s5.lower())
+print(s5.upper())
+print(s5.count('e'))
+s5 = "Test"
+print(s5.count('t'))
+print(s5.lower().count('t'))
+
+print(dir(str))

@@ -1,5 +1,8 @@
-## Set - [Mutable] Unordered Collection of keys (similar, unique, immutable)
+## Set - [Mutable] Unordered Collection of keys (unique, immutable)
 ## key - hashable
+## hash - One tranformation of a key into a hash value. 
+##          if key is 625, and hash function is (num%10)
+##          the hash value is 5. 
 
 a = 625
 print(hash(625))
@@ -87,3 +90,39 @@ print(s1 >= s4)
 
 print(s1.isdisjoint(s3))
 print(s1&s3 == set())
+
+
+
+## Frozen sets - [Immutable] Unordered collection of keys
+
+lst1 = [1, 2, 3, 4]
+lst2 = [1, 2, 3, 4, 5]
+lst3 = [lst1, lst2]
+
+print(lst3)
+print(lst3[1][3])
+
+
+st1 ={1, 2, 3, 4}
+st2 = {1, 2, 3, 4, 5}
+print(st1, st2, sep='\n')
+
+# Erroneous code
+# st3 = {st1, st2}
+# print(st3)
+
+fs1 = frozenset(st1)
+fs2 = frozenset(st2)
+fs3 = frozenset([fs1, fs2])
+print(fs3)
+
+
+
+st3 = {fs1, fs2}
+st3.add(1)
+print(st3)
+
+# Mutable   collection of non-homogeneous objects --> List
+# Immutable collection of non-homogeneous objects --> Tuple
+# Mutable   collection of keys --> Set
+# Immutable collection of keys --> FrozenSet

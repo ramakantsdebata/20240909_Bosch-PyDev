@@ -17,7 +17,7 @@
 * 
 
 #### Operational
-* [Org Feedback Day 0](https://forms.office.com/e/gxkNR4Zr8i)
+* [Trainer Feedback](https://forms.gle/1H8qD3WbMef3pP4m9)
 
 ### Contact Details
 * Ramakant Debata

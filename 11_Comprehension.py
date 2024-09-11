@@ -47,3 +47,43 @@ print(square)
 
 '''
 
+from typing import Any
+
+
+lst = []
+# print(dir(lst))
+print(dir(list))
+
+print(dir(int))
+
+print("-"*40, "\n")
+
+public_members = [member for member in dir(int) if member.startswith("_") is False]
+print(len(public_members), public_members)
+
+public_methods = [member for member in dir(int) if member.startswith("_") is False 
+                  and callable(getattr(int, member))]
+
+callable(getattr(int,'as_integer_ratio'))
+
+print(len(public_methods), public_methods)
+
+'''
+def add(a, b):
+    return a + b
+
+
+print(type(add))
+add()
+'''
+
+'''__call__
+
+class Test:
+    def __call__(self, *args: Any, **kwds: Any) -> Any:
+        print()
+
+t1 = Test()
+
+t1(10, 20)
+'''

@@ -25,7 +25,7 @@
 * [Zen of Python](https://peps.python.org/pep-0020/)
 * [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
 * [Lexical analysis - Escape characters](https://docs.python.org/3/reference/lexical_analysis.html#escape-sequences)
-* 
+* [Exception Hierarchy](https://docs.python.org/3/library/exceptions.html#exception-hierarchy)
 
 #### Operational
 * [Trainer Feedback](https://forms.gle/1H8qD3WbMef3pP4m9)

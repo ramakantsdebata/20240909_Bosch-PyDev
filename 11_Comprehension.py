@@ -87,3 +87,8 @@ t1 = Test()
 
 t1(10, 20)
 '''
+
+
+fruits = ["apple", "banana", "cherry", "dragonfruit", "kiwi", "mango"]
+# [fr                                                         for fr in fruits       if 'a' in fr]
+[print("Present")  if 'a' in fr else print("Absent")        for fr in fruits]

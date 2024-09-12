@@ -10,9 +10,15 @@
     * Switch cell type to Code - y
 * Virtual environments
     * **Create** --> _py -m venv .env-def_
-    * **Enter venv** --> Run the activate script specific to the terminal you are using
+    * **Enter/Activate venv** --> Run the activate script specific to the terminal you are using
         * **For bash, use source command** --> _source .env-def/Scripts/activate_
-    * **Step out** --> _deactivate_
+    * **Step out/Deactivate** --> _deactivate_
+    * **Show packages in the current environment** --> _pip list_
+    * **Install modules** --> 
+        * _pip install <module-name>_
+        * _pip install -r requirements.txt_
+    * **Remove a module** --> _pip uninstall <module-name>_
+    * **Save list of modules installed in the current env** --> _pip freeze > requirements.txt_
 ### Links
 #### Technical
 * [PEPs](https://peps.python.org/)

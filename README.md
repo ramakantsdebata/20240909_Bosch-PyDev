@@ -11,7 +11,7 @@
 * Virtual environments
     * **Create** --> _py -m venv .env-def_
     * **Enter venv** --> Run the activate script specific to the terminal you are using
-        * **For bash, use source command** --> _source /.env-def/Scripts/activate_
+        * **For bash, use source command** --> _source .env-def/Scripts/activate_
     * **Step out** --> _deactivate_
 ### Links
 #### Technical

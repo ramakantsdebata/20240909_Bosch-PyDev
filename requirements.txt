@@ -1,3 +1,9 @@
 django==3.1.14
 multipledispatch
 # Comments
+
+
+# Python Unit testing
+parameterized
+pytest
+pytest-html

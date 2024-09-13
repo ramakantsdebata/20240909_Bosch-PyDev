@@ -29,6 +29,7 @@
 
 #### Operational
 * [Trainer Feedback](https://forms.gle/1H8qD3WbMef3pP4m9)
+* [Post training test](https://forms.gle/QtMhSpzSdmKZA1qK8)
 
 ### Contact Details
 * Ramakant Debata

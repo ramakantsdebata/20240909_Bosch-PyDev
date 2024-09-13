@@ -28,7 +28,7 @@ def add_new_product(file_path, new_product_data):
 
 if __name__ == "__main__":
     # Path to the JSON file
-    json_file_path = '22_JSON_B_data.json'
+    json_file_path = '28_JSON_B_data.json'
     
     # Parsing the JSON file and printing the contents
     parse_json(json_file_path)
